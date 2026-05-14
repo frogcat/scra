@@ -1,0 +1,34 @@
+{
+  "@context": {
+    "bldg": "http://www.opengis.net/citygml/building/2.0#",
+    "geojson": "https://purl.org/geojson/vocab#",
+    "pd": "https://example.org/ns/pd#",
+    "service": "https://example.org/jp/codelist/service#",
+    "uro": "https://www.geospatial.jp/iur/uro/3.1#",
+    "additionalType": {
+      "@type": "@vocab"
+    },
+    "propertyID": {
+      "@type": "@vocab"
+    },
+    "geojson:geometry": {
+      "@type": "@json"
+    },
+    "pd:localGovernmentCode": {
+      "@type": "http://example.org/jp/datatype/localGovernmentCode"
+    },
+    "pd:streetAddressId": {
+      "@type": "http://example.org/jp/datatype/streetAddressId"
+    },
+    "areaServed": {
+      "@type": "@id"
+    },
+    "pd:legalEntityNumber": {
+      "@type": "http://example.org/jp/datatype/legalEntityNumber"
+    },
+    "pd:availableDateTimeFormular": {
+      "@type": "http://example.org/jp/datatype/dateTimeFormular"
+    },
+    "$schema": null
+  }
+}
