@@ -6,9 +6,11 @@
     "service": "https://example.org/jp/codelist/service#",
     "uro": "https://www.geospatial.jp/iur/uro/3.1#",
     "additionalType": {
+      "@id": "https://schema.org/additionalType",
       "@type": "@vocab"
     },
     "propertyID": {
+      "@id": "https://schema.org/propertyID",
       "@type": "@vocab"
     },
     "geojson:geometry": {
@@ -21,6 +23,7 @@
       "@type": "http://example.org/jp/datatype/streetAddressId"
     },
     "areaServed": {
+      "@id": "https://schema.org/areaServed",
       "@type": "@id"
     },
     "pd:legalEntityNumber": {
@@ -34,11 +37,9 @@
       "@language": "ja"
     },
     "pd:nameEn": {
-      "@id": "https://schema.org/name",
       "@language": "en"
     },
     "pd:nameKana": {
-      "@id": "https://schema.org/name",
       "@language": "ja-Kana"
     },
     "familyName": {
@@ -46,11 +47,9 @@
       "@language": "ja"
     },
     "pd:familyNameEn": {
-      "@id": "https://schema.org/familyName",
       "@language": "en"
     },
     "pd:familyNameKana": {
-      "@id": "https://schema.org/familyName",
       "@language": "ja-Kana"
     },
     "givenName": {
@@ -58,11 +57,9 @@
       "@language": "ja"
     },
     "pd:givenNameEn": {
-      "@id": "https://schema.org/givenName",
       "@language": "en"
     },
     "pd:givenNameKana": {
-      "@id": "https://schema.org/givenName",
       "@language": "ja-Kana"
     },
     "$schema": null
