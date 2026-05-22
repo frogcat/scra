@@ -29,15 +29,42 @@
     "pd:availableDateTimeFormular": {
       "@type": "http://example.org/jp/datatype/dateTimeFormular"
     },
-    "name": { "@id": "https://schema.org/name", "@language": "ja" },
-    "nameEn": { "@id": "https://schema.org/name", "@language": "en" },
-    "nameKana": { "@id": "https://schema.org/name", "@language": "ja-Kana" },
-    "familyName": { "@id": "https://schema.org/familyName", "@language": "ja" },
-    "familyNameEn": { "@id": "https://schema.org/familyName", "@language": "en" },
-    "familyNameKana": { "@id": "https://schema.org/familyName", "@language": "ja-Kana" },
-    "givenName": { "@id": "https://schema.org/givenName", "@language": "ja" },
-    "givenNameEn": { "@id": "https://schema.org/givenName", "@language": "en" },
-    "givenNameKana": { "@id": "https://schema.org/givenName", "@language": "ja-Kana" },
+    "name": {
+      "@id": "https://schema.org/name",
+      "@language": "ja"
+    },
+    "pd:nameEn": {
+      "@id": "https://schema.org/name",
+      "@language": "en"
+    },
+    "pd:nameKana": {
+      "@id": "https://schema.org/name",
+      "@language": "ja-Kana"
+    },
+    "familyName": {
+      "@id": "https://schema.org/familyName",
+      "@language": "ja"
+    },
+    "pd:familyNameEn": {
+      "@id": "https://schema.org/familyName",
+      "@language": "en"
+    },
+    "pd:familyNameKana": {
+      "@id": "https://schema.org/familyName",
+      "@language": "ja-Kana"
+    },
+    "givenName": {
+      "@id": "https://schema.org/givenName",
+      "@language": "ja"
+    },
+    "pd:givenNameEn": {
+      "@id": "https://schema.org/givenName",
+      "@language": "en"
+    },
+    "pd:givenNameKana": {
+      "@id": "https://schema.org/givenName",
+      "@language": "ja-Kana"
+    },
     "$schema": null
   }
 }
